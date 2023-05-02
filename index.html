@@ -2,33 +2,60 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Personal Portfolio</title>
     </head>
     <body>
+        <!--start nav bar-->
         <nav id="navbar">
             <ul>
                 <li><a id="link" href="#welcome-section">About</a></li>
                 <li><a id="link" href="#projects">Work</a></li>
-                <li><a id="link" href="#profile">Contact</a></li>
+                <li><a id="link" href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <!--End nav bar-->
+        <!--Start Welcome section-->
         <section id="welcome-section">
             <h1 id="myName">Hey I am Dereje Tesfaye</h1>
-            <p id="webdev"> a web developer</p>
+            <p id="webdev">a web developer</p>
+            <hr>
+            <br>
+            <h2>Education and Training</h2>
+            <ul>
+                <li>2008 BA Degree in Finance & Developement Economics</li>
+                <li>2017 MSc in Computer Science</li>
+            </ul>
+            <h2>Work Experience</h2>
+            <ul>
+                <li>2009 - 2010 Data Entry Clerk at WHO</li>
+                <li>2011 - 2023 Marketing Manager at Nathaleo Industrail Importer</li>
+            </ul>
         </section>
+        <!--End Welcome Section-->
+        <!--Start Projects Section-->
         <section id="projects">
             <h2 class="project-tile">These are some of my projects</h2>
             <ul>
-                <li>Nathaleo Industrial Importer webpage</li><a>Nathaleo Industrial Webpage</a>
-                <li>Personal Portfolio<a>Personal webpage</a></li>
-                <li>Survey Form<a>Survey Form</a></li>
+                <li><a href="#welcome-section">Personal Portfolio Webpage</a></li>
             </ul>
         </section>
-        <section id="profile">
-            <a id="profile-link" href="www.facebook.com" target="_blank"><img src="facebooklogo.png" alt="facebook page" width="100" height="50"></a>
-            <a id="profile-link" href="https://github.com/JoeDereje.com" target="_blank">GitHub<img src="githublogo.png" alt="github page" width="100" height="50"></a>
-            <a id="profile-link" href="mailto:dtesfaye63@gmail.com">Email Me<img src="@logo.png" alt="Email Me" width="100" height="50"></a>
-            <a id="profile-link" href="tel:+251911890292">Call Me<img src="cellphone.png" alt="Call Me" width="100" height="50"></a>
+        <!--End Projects Section-->
+        <!--Starts contact section-->
+        <section id="contact">
+            <div id="contact-header">
+                <h2>Let's work together...</h2>
+            </div>
+            <div id="contact-links">
+                <a id="contact-link" href="www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i>Facebook</a>
+                <a id="contact-link" href="https://github.com/JoeDereje" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                <a id="contact-link" href="mailto:dtesfaye63@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>Send email</a>
+                <a id="contact-link" href="tel:+251911890292"><i class="fa fa-mobile" aria-hidden="true"></i>Call me</a>
+            </div>
         </section>
+        <!--End of contact section-->
     </body>
 </html>
